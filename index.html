@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trombinoscope</title>
+    <link rel="icon" href="logos/simplon3.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <h1>Trombinoscope Dev Inté P2</h1>
+    </header>
+    <main>
+        <div id="container">
+            <div id="map"></div>
+            <div id="sidebar">
+                <ul id="list">
+                    <!-- Entrées générées dynamiquement via JS -->
+                </ul>
+            </div>
+        </div>
+        <!-- Popup Overlay -->
+        <div id="popup-overlay" class="hidden">
+            <div id="popup">
+                <button id="close-popup">X</button>
+                <div id="popup-content">
+                    <!-- Contenu inséré dynamiquement en JS -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Par <strong>Gaëtan Laurent</strong> et <strong>Cindy Dauchart</strong></p>
+    </footer>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
